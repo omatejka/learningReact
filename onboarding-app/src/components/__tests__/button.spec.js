@@ -1,6 +1,5 @@
 import Button from "../button";
 import { shallow } from "enzyme";
-import expect from "expect";
 import React from "react";
 
 

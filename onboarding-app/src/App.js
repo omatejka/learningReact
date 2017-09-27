@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Button from "./components/button";
 import FilterBar from "./components/filterResultsBar";
 import FilteredResults from "./components/filteredList";
-import { checkStatus, filter } from "./libs/helpers";
-import Results from "./components/results";
+import { checkStatus,filter } from "./libs/helpers";
 import SearchBar from "./components/searchBar";
+import "./styles/style.css";
 
 class App extends Component {
   state = {
@@ -28,7 +28,10 @@ class App extends Component {
         })
       )
       .then(data => {
-        this.setState({ results: data.items, filteredResults: data.items });
+        this.setState({
+          results: data.items,
+          filteredResults: data.items
+        });
       })
       .catch(e => {
         this.setState({ error: e.message });

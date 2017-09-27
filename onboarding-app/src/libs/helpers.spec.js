@@ -41,7 +41,7 @@ describe("method filter", () => {
 });
 
 // otestovat všechny usecasy - DONE
-// otestovat komponenty
-// otestovat fetch pomocí nocku
+// otestovat komponenty - asi DONE
+// otestovat fetch pomocí nocku - DONE
 // vytvorit si repo pro tenhle projekt DONE
 //
