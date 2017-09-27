@@ -2,7 +2,7 @@ import React from "react";
 
 export default ({ filteredResults }) => {
   return (
-    <ul>
+    <ul id="filteredResults">
       {filteredResults &&
         filteredResults.map(({ avatar_url, html_url, login, id }) => {
           return (

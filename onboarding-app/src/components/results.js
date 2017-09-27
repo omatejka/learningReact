@@ -4,7 +4,7 @@ import ResultList from "./list";
 export default ({ results }) => {
   return (
     <div>
-      <div>
+      <div id="results">
         <ResultList results={results} />
       </div>
     </div>
