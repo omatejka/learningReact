@@ -10,8 +10,11 @@
     "nock": "^9.0.14",
     "react": "^15.6.1",
     "react-dom": "15",
+    "react-redux": "^5.0.6",
     "react-scripts": "1.0.12",
     "react-test-renderer": "^15.6.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
     "sinon": "^3.2.1"
   },
   "scripts": {

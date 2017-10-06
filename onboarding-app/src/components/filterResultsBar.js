@@ -1,13 +1,13 @@
 import React from "react";
 
-export default ({ onChange, value }) => {
+export default ({ filterValue, filterResults, actions }) => {
   return (
     <div>
       <input
-        id="filterBar"
+        onChange={event => actions.changeFilterValue(event.target.value)}
         placeholder={"Filter results..."}
-        onChange={onChange}
-        value={value}
+        type="text"
+        value={filterValue}
       />
     </div>
   );
